@@ -12,11 +12,13 @@ markdown: kramdown
 kramdown:
   input: GFM
   syntax_highlighter: rouge
+sass:
+  style: compressed
 
 # Stylesheets
 stylesheets:
-  - '/assets/css/stylesheet.css'
-  - '/assets/css/syntax.css'
+  - '/css/stylesheet.css'
+  - '/css/syntax.css'
 
 # Google Analytics
 google-analytics:
