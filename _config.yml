@@ -19,6 +19,7 @@ sass:
 stylesheets:
   - '/css/stylesheet.css'
   - '/css/syntax.css'
+  - '/css/carbon-ads.css'
 
 # Google Analytics
 google-analytics:
