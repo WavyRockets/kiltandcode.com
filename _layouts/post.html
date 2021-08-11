@@ -25,9 +25,11 @@ layout: default
     </section>
   {% endif %}
 
+  {% if jekyll.environment == 'production' %}
   <section class="bottom-bumper">
     {% include carbon-ads.html %}
   </section>
+  {% endif %}
   
   {{ content }}
   
